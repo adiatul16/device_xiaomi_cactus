@@ -18,6 +18,8 @@ DEVICE_PATH := device/xiaomi/cactus
 
 BOARD_VENDOR := xiaomi
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
