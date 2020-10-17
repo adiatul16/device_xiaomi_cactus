@@ -37,6 +37,7 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x15000000 -
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/xiaomi/cactus
+TARGET_KERNEL_DEFCONFIG := cactus_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6765
