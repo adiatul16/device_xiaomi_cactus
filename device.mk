@@ -76,7 +76,7 @@ PRODUCT_PACKAGES += \
     meta_init.project.rc \
     meta_init.rc \
     multi_init.rc \
-    fstab.mt6765 \
+    recovery.fstab \
     ueventd.qcom.rc \
 
 # RCS
