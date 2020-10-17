@@ -120,6 +120,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lineage.trust@1.0-service
 
+# Vendor properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndk_package
