@@ -82,6 +82,7 @@ include device/mediatek/sepolicy/sepolicy.mk
 BOARD_VNDK_VERSION  := current
 BOARD_VNDK_RUNTIME_DISABLE := true
 TARGET_COPY_OUT_VENDOR := vendor
+PRODUCT_EXTRA_VNDK_VERSIONS := 28
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
